@@ -1,0 +1,49 @@
+Hi USI - Python Training team, here is an interesting project you'd like to try out! Each step mentioned below needs to be followed to get final output
+ 
+
+
+
+	
+Read file input_data.csv.
+
+
+    Schema of input_data to be considered as:
+
+        id: String
+
+        first_name: String
+
+        last_name: String
+
+        email: String
+
+        gender: String
+
+        ip_address: String
+
+        city: String
+
+
+	
+Process File to get "Full Name" from first_name and last_name.
+	
+Create output.csv whose schema should look like:
+        Full_name: String
+        email: String
+        gender: String
+        ip_address: String
+        city: String
+
+Create a table(employee_table) using sqlite3 database.	
+Insert all records from output.csv to employee_table.
+Write logic to de-duplicate records in table either using sql query or lambda function.
+Extract all data from employee_table and create final_output.csv.
+Delete input_data.csv and output.csv
+
+
+	Note: Project structure should look like:
+	                    Package Name : learningPython
+	                        Sub-Package: database
+	                                Module: database_config.py
+	                        Sub-Package: code_logic
+	                                Module: logic.py
